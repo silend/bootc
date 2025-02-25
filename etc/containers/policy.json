@@ -6,10 +6,10 @@
     ],
     "transports": {
         "docker": {
-            "ghcr.io/zelf": [
+            "ghcr.io/silend": [
                 {
                     "type": "sigstoreSigned",
-                    "keyPath": "/etc/pki/containers/zelf.pub",
+                    "keyPath": "/etc/pki/containers/silend.pub",
                     "signedIdentity": {
                         "type": "matchRepository"
                     }
